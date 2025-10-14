@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="pagina sobre el panda">
+  <meta name="keywords" content="panda rojo, animales en peligro, donaciones, conservación, bambú">
+  <meta name="author" content="Tu Nombre o Fundación Panda Rojo">
+  <title>Panda Rojo | Información, Fotos, Ayuda y Donaciones</title>
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/estilos_adicionales.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WST39RDMFJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WST39RDMFJ');
+</script>
+</head>
+<body class="pt-5">
+  <nav class="navbar navbar-expand-sm navbar-danger fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF94s7zcJfH9vBrGQiL6faU_W45y6PPBM7eg&s=0" alt="logo panda" width="50"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+      <ul class="navbar-nav me-5 mb-2 gap-3">
+        <li class="nav-item">
+          <a class="nav-link text-body bg-white" href="#">INICIO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-body bg-white" href="#Fotos">FOTOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-body bg-white" href="#Caracteristicas">CARACTERÍSTICAS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-body bg-white" href="#Donaciones">DONACIONES</a>
+        </li>    
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid p-5 m-5 text-info text-center">
+  <section class="hero row align-items-center">
+    
+    <div class="col-md-6 mx-auto text-center text-black">
+      <h1>El Panda <span class="text-danger">Rojo</span></h1>
+      <p>El símbolo de la conservación mundial</p>
+      <a href="#" id="goToDonaciones" class="btn btn-donar-ppal btn-donacion" data-bs-toggle="modal" data-bs-target="#modalConfirmacionDonacion">¡Quiero donar!</a>
+
+    </div>
+    
+    <div class="col-md-6 text-center">
+      <img loading="lazy" src="images/panda-hero.webp" alt="imagen-panda-rojo-central" class="img-thumbnail img-fluid" alt="El Panda Rojo" width="741" height="494" fetchpriority="high">
+    </div>
+
+  </section>
+</div>
+
+
+<div class="container-fluid mt-5 p-5 text-center justify-content-center" id="Caracteristicas">
+  <div class="row justify-content-center">
+    <div class="col-lg-3 col-md-5 mb-3">
+      <div class="card p-3 h-100">
+      <h2 class="text-success">🌿 Alimentación</h2>
+      <div class="card-body">Los pandas se alimentan principalmente de bambú, consumiendo hasta 12-15kg al día. Conumen un 99% de bambú/día.</div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-5 mb-3">
+      <div class="card p-3 h-100">
+      <h2 class="text-info">🏞️ Hábitat</h2>
+      <div class="card-body">Habitan en las montañas de China central, en bosques templados de hoja ancha y mixtos a altitudes entre 1.200 y 3.400 metros.</div>
+    </div>
+    </div>
+    <div class="col-lg-3 col-md-5 mb-3">
+    <div class="card p-3 h-100">
+     <h2 class="text-conservacion">🛡️ Conservación</h2>
+     <div class="card-body">Están clasificados como vulnerables. Gracias a los esfuerzos de conservación, su población ha aumentado en los últimos años.</div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-5 mb-3">
+      <div class="card p-3 h-100">
+      <h2 class="text-danger">❌ Extinción</h2>
+      <div class="card-body">Habitan en las montañas de China central, y están en peligro de extinción importante.</div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<section class="w-50 m-auto mt-5" id="Fotos">
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-label="buton-carrusel"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="buton-carrusel"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2" aria-label="buton-carrusel"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3" aria-label="buton-carrusel"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <h3>Fotos de Panda Rojo</h3>
+      <img loading="lazy" src="images/panda1-carusel.webp" alt="PandaRojo1" class="d-block img-thumbnail" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Panda Rojo</h3>
+        <p>El mejor en su especie</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img loading="lazy" src="images/panda2-carusel.webp" alt="PandaRojo2" class="d-block img-thumbnail" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Panda Rojo</h3>
+        <p>El mejor en su especie</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img loading="lazy" src="images/panda3-carusel.webp" alt="PandaRojo3" class="d-block img-thumbnail" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Panda Rojo</h3>
+        <p>El mejor en su especie</p>
+      </div> 
+    </div>
+    <div class="carousel-item">
+      <img loading="lazy" src="images/panda4-carusel.webp" alt="PandaRojo4" class="d-block img-thumbnail" style="width:100%">
+      <div class="carousel-caption">
+        <h3>Panda Rojo</h3>
+        <p>El mejor en su especie</p>
+      </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev" aria-label="buton-carrusel">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next" aria-label="buton-carrusel">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+</section>
+
+
+<section class="w-75 m-auto mt-5">
+  <div class="container mt-3">
+  <h2>Características del Panda Rojo</h2>
+  <div id="accordion">
+    <div class="card">
+      <div class="card-header">
+        <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+          🐾 Características físicas
+        </a>
+      </div>
+      <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+        🌍 Habitat y Distribución
+      </a>
+      </div>
+      <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+          🍃 Alimentación y Comportamiento
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+          🛡️ Estado de Conservación
+        </a>
+      </div>
+      <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+        <div class="card-body">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- formulario -->
+
+<section class="w-50 m-auto mt-5">
+  <div class="container mt-3">
+    <form action="https://formspree.io/f/mblzpayk" method="POST" class="booking-form-modal" id="Donaciones">
+    <h3 class="form-encab">FORMULARIO DE DONACIONES:</h3>
+      <input type="hidden" name="_subject" value="Nueva Reserva de Cita Barber Premium">
+
+      <div class="form-group">
+        <label for="nombre_modal">Nombre:</label>
+        <input type="text" id="nombre_modal" name="nombre" required placeholder="Ingresa tu nombre">
+      </div>
+
+      <div class="form-group">
+        <label for="apellidos_modal">Apellidos:</label>
+        <input type="text" id="apellidos_modal" name="apellidos" required placeholder="Ingresa tus apellidos">
+      </div>
+
+      <div class="form-group">
+        <label for="telefono_modal">Teléfono:</label>
+        <input type="tel" id="telefono_modal" name="telefono" required pattern="^\+34[67]\d{8}$" value="+34">
+      </div>
+      
+      <div class="form-group">
+        <label for="email_modal">Correo Electrónico:</label>
+        <input type="email" id="email_modal" name="_replyto" required placeholder="ejemplo@correo.com"> 
+      </div>
+
+      <div class="form-group">
+        <label for="cantidad">Cantidad a donar:</label>
+        <div class="cantidad d-flex gap-2 flex-wrap">
+          <button type="button" class="btn btn-outline-primary">5€</button>
+          <button type="button" class="btn btn-outline-primary">10€</button>
+          <button type="button" class="btn btn-outline-primary">15€</button>
+          <button type="button" class="btn btn-outline-primary">20€</button>
+          <button type="button" class="btn btn-outline-primary">50€</button>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="comentarios_modal">Introduce otro importe:</label>
+        <textarea id="comentarios_modal" name="comentarios" rows="3" placeholder="Escribe la cantidad específica que quieras donar"></textarea>
+      </div>
+
+      <div class="form-group">
+        <div class="acuerdo">
+          <div class="acuerdocondiciones d-flex align-items-center">
+            <input type="checkbox" id="acuerdo_cond" name="acuerdo_cond" value="" class="me-2" required>
+            <label for="acuerdo_cond" class="mb-0">Acepta los términos y condiciones.</label>
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary w-100">DONAR</button>
+    </form>
+  </div>
+</section>
+
+
+<!-- modal para donacinoes -->
+<div class="modal fade" id="modalConfirmacionDonacion" tabindex="-1" aria-labelledby="modalConfirmacionDonacionLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalConfirmacionDonacionLabel"><span class="icono">🤑</span> Confirmar Donación</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <p>Estás a punto de ser redirigido a la sección de donaciones. ¿Estás seguro?</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#Donaciones" class="btn btn-primary" data-bs-dismiss="modal">¡Confirmar y Donar!</a>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- FOOTER -->
+
+<section class="footer container-fluid mt-5 p-5 text-center justify-content-center" id="piedepagina">
+  <div class="row justify-content-center">
+    <div class="col-lg-3 col-md-5 mb-3">
+      <div class="contact-footer footer-box p-3 h-100">
+       <h4 class="text-footer">FUNDACIÓN PANDA ROJO</h4>
+       <p><i class="bi bi-geo-alt"></i> Calle Conservación, 123</p>
+       <p><i class="bi bi-whatsapp"></i><a href="https://wa.me/341234567" target="_blank" class="whatsapp"> +34 123 45 67</a></p>
+       <p><i class="bi bi-envelope"></i><a href="mailto: info@pandarojo.org?subject=QUIERO MAS INFORMACIÓN" class="mailito"> info@pandarojo.org</a></p>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-5 mb-3">
+      <div class="contact-footer footer-box p-3 h-100">
+        <h4 class="text-footer">ENLACES</h4>
+        <a href="#Fotos">Fotos</a>
+        <a href="#Caracteristicas">Caracerísticas</a>
+        <a href="#Donaciones">Donaciones</a>
+        <a href="#">Blog</a>
+        <a href="#">Voluntariado</a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-5 mb-3">
+      <div class="projects-footer footer-box p-3 h-100">
+        <h4 class="text-footer">PROYECTOS</h4>
+        <a href="#">Reforestación de bambú</a>
+        <a href="#">Centro de rescate</a>
+        <a href="#">Investigación</a>
+        <a href="#">Educación ambiental</a>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-5 mb-3">
+      <div class="links-footer footer-box p-3 h-100">
+          <h4 class="text-footer">SÍGUENOS</h4>
+        <div class="iconos-sociales mb-3">
+          <a href="#" aria-label="social-icono"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="social-icono"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" aria-label="social-icono"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="social-icono"><i class="bi bi-youtube"></i></a>
+        </div>
+          <form>
+            <label for="suscribe">Introduce tu correo:</label>
+            <input id="suscribe" class="form-control mb-2 w-100" type="email" name="suscribe" placeholder="ejemplo@correo.com">
+            <button class="btn btn-primary w-100" type="submit">Suscribir</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footers-line"></div>
+
+  <div class="sub-footer container-fluid p-5 m-5 text-info text-center">
+    <div class="subfooter row align-items-center">
+      <div class="col-md-6 mx-auto text-center text-black">
+        <p>&copy; 2025 Fundación Panda Rojo. Todos los derechos reservados.</p>
+      </div>
+    
+      <div class="col-md-6 text-center">
+        <a href="#">Política de privacidad</a>
+        <a href="#">Términos y condiciones</a>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const botonesCantidad = document.querySelectorAll(".cantidad button");
+  const confirmarDonarBtn = document.querySelector('.modal-footer a[href="#Donaciones"]');
+  
+  botonesCantidad.forEach(button => {
+    button.addEventListener("click", function () {
+      botonesCantidad.forEach(btn => btn.classList.remove("selected"));
+      this.classList.add("selected");
+    });
+  });
+
+  confirmarDonarBtn.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    const modal = bootstrap.Modal.getInstance(document.getElementById('modalConfirmacionDonacion'));
+    modal.hide();
+
+    setTimeout(() => {
+      const donacionesSection = document.getElementById('Donaciones');
+      if (donacionesSection) {
+        const yOffset = -80;
+        const y = donacionesSection.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }
+    }, 150);
+  });
+});
+
+
+
+/*
+---  SCRIPT WILLIAMS ---
+function scrollToSection(sectionId){
+  // funcion para desplazamiento suave
+  $('html,body').animate({
+    scrollTop:$(sectionId).offset().top -80
+  }, 800);
+
+  //evento para el boton Donar
+  $(".btn-donar").click(function(){
+    //cerrar la modal
+    $('#myModal').modal('hide');
+
+  //desplazarse a la seccion de donaciones después de un pequeño retraso
+  setTimeout(function(){
+    scrollToSection('#donaciones');
+  }, 500);
+  });
+*/
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

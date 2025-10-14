@@ -1,0 +1,217 @@
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-conservacion{
+    color:#cc8603
+}
+
+.carousel-caption{
+    opacity: 0.8;
+    background-color: #333;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.booking-form-modal {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:hover, textarea:hover {
+    border: 2px dashed darkred;
+    background-color: #ddd;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.cantidad {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.cantidad button {
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #ddd;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    max-width: 80px;
+    width: 100%;
+    flex: 1;
+    color: black
+}
+
+.cantidad button:hover {
+    background-color: darkred;
+    border-color: #adb5bd;
+}
+
+.acuerdocondiciones {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.acuerdocondiciones input[type="checkbox"] {
+    margin: 8px;
+    padding: 8px;
+}
+
+.acuerdocondiciones label {
+    margin-bottom: -8px;
+    font-weight: normal;
+}
+.icono{
+    font-size: 44px;
+    margin-right: 8px;
+}
+.btn {
+    padding: 12px 24px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+.btn:hover {
+    background-color: darkred;
+    color: white;
+    border: 2px solid black;
+}
+form{
+    border-radius: 8px 8px 8px 8px;
+    padding: 10px;
+    border-left: 12px solid #333;
+    border-right: 12px solid #333;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+    margin-bottom: 80px;
+}
+
+.cantidad button.selected {
+  background-color: darkred;
+  color: white;
+  border-color: black;
+}
+
+.footer{
+    border-top: 3px solid #333;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-footer{
+    margin-bottom: 30px;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+}
+
+.footer input{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 6px;
+}
+
+.footer a:hover, .navbar a:hover{
+    color: white !important;
+    background-color: darkred !important;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+}
+
+.navbar a:active{
+    color: white !important;
+    background-color: darkred !important;
+    border-radius: 4px;
+}
+
+.sub-footer a{
+    text-decoration: none;
+    color: black;
+    padding: 0 35px;
+}
+
+.footers-line {
+    margin: 0 auto;
+    height: 3px;
+    background-color: #333;
+    width: 75%;
+}
+
+.iconos-sociales a {
+    font-size: 24px;
+    color: black;
+    margin-right: 10px;
+    padding: 6px;
+}
+
+.whatsapp{
+    background-color: #25D366;
+    text-decoration: none;  
+    color: white;
+    padding: 4px 6px;
+    border-radius: 4px;
+}
+
+.mailito{
+    background-color: #3498db;
+    text-decoration: none;  
+    color: white;
+    padding: 4px 6px;
+    border-radius: 4px;
+}
+
+
+@media (max-width: 768px) {
+    .cantidad {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .cantidad button {
+        min-width: 100%;
+    }
+
+    .carousel-caption {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    }
